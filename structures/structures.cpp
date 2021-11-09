@@ -6,7 +6,8 @@ int main() {
         char species[32];
     };
 
-    animal pet1 = {"whiskers", "cat"};
+    animal pet1 = {"whiskers", "very large feline"};
+    animal pet2 = {"tiny", "cat"};
 
     std::cout << "Pet no. 1's name is " << pet1.name << "\n";
     std::cout << "Your pets are named: \n";

@@ -10,5 +10,6 @@ int main() {
     int nums[] = {5, 4, 3, 8, 9, 1};
     for (int x:nums)
         std::cout << ror(nums[x],7) << "\n";
+        
     
 }

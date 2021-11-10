@@ -12,5 +12,7 @@ string names[] = {"sdf", "wef", "dave", "steve", "sam", "mark", "giles", "joe", 
 int main() {
     int nums[] = {5, 4, 3, 8, 9, 1};
     for (int x:nums)
-        cout << nums[x] << "\n";
+        for (char c:names[nums[x]])
+            cout << ror(c, 2) << "\n";
+    
 }

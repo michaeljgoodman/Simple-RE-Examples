@@ -11,6 +11,7 @@ unsigned long ror(unsigned long value,unsigned char rotation)
 {
 return (value<<rotation) | (value>>(sizeof(value)*cBitsInByte - rotation));
 }
+
 string names[] = {"sdf", "wef", "dave", "steve", "sam", "mark", "giles", "joe", "keiran", "tom", "chaz", "laura", "c", "fakename", "ford", "also jack", "jack", "paulo", "sasha", "tim", "jeremy"};
 int main() {
     int nums[] = {5, 4, 3, 8, 9, 1};
